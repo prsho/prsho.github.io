@@ -1,4 +1,4 @@
-masonry();
+isotope();
 
 $(function () {
     offCanvas();
@@ -31,18 +31,19 @@ function carousels() {
 }
 
 /* =========================================
- *  masonry
+ *  isotope
  *  =======================================*/
 
-function masonry() {
+function isotope() {
 
-    var $grid = $('.grid').masonry({
-        itemSelector: ".masonry-item",
+    var $grid = $('.grid').isotope({
+        itemSelector: ".isotope-item",
         gutter: 5,
+        columnWidth
     });
 
     $grid.imagesLoaded().progress(function () {
-        $grid.masonry('layout');
+        $grid.isotope('layout');
     });
 }
 
