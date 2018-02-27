@@ -38,8 +38,8 @@ function isotope() {
 
     var $grid = $('.grid').isotope({
         itemSelector: ".isotope-item",
-        gutter: 5,
-        columnWidth
+        layoutMode: 'packery',
+        resizeContainer: true,
     });
 
     $grid.imagesLoaded().progress(function () {
