@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>/contact/</loc>
+    <lastmod>2016-11-06T13:00:25+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/about/</loc>
+    <lastmod>2016-11-05T21:05:33+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/portfolio/01/</loc>
+  </url>
+  
+  <url>
+    <loc>/portfolio/02/</loc>
+  </url>
+  
+  <url>
+    <loc>/portfolio/03/</loc>
+  </url>
+  
+  <url>
+    <loc>/portfolio/04/</loc>
+  </url>
+  
+  <url>
+    <loc>/portfolio/05/</loc>
+  </url>
+  
+  <url>
+    <loc>/portfolio/06/</loc>
+  </url>
+  
+  <url>
+    <loc>/portfolio/07/</loc>
+  </url>
+  
+  <url>
+    <loc>/portfolio/08/</loc>
+  </url>
+  
+  <url>
+    <loc>/portfolio/09/</loc>
+  </url>
+  
+  <url>
+    <loc>/portfolio/10/</loc>
+  </url>
+  
+  <url>
+    <loc>/portfolio/11/</loc>
+  </url>
+  
+  <url>
+    <loc>/portfolio/12/</loc>
+  </url>
+  
+  <url>
+    <loc>/portfolio/13/</loc>
+  </url>
+  
+  <url>
+    <loc>/portfolio/14/</loc>
+  </url>
+  
+  <url>
+    <loc>/portfolio/15/</loc>
+  </url>
+  
+  <url>
+    <loc>/portfolio/16/</loc>
+  </url>
+  
+  <url>
+    <loc>/portfolio/17/</loc>
+  </url>
+  
+  <url>
+    <loc>/portfolio/18/</loc>
+  </url>
+  
+  <url>
+    <loc>/portfolio/19/</loc>
+  </url>
+  
+  <url>
+    <loc>/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/portfolio/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+</urlset>
