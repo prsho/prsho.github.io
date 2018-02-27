@@ -38,7 +38,7 @@ function masonry() {
 
     var $grid = $('.grid').masonry({
         itemSelector: ".masonry-item",
-        gutter: 20,
+        gutter: 5,
     });
 
     $grid.imagesLoaded().progress(function () {
