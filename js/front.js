@@ -1,4 +1,3 @@
-
 isotope();
 
 $(function () {
@@ -41,9 +40,8 @@ function isotope() {
         itemSelector: ".isotope-item",
         layoutMode: 'packery',
         resizeContainer: true,
+        sortBy: 'random',
     });
-
-
 
     $grid.imagesLoaded().progress(function () {
         $grid.isotope('layout');
