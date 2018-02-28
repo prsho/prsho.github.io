@@ -1,5 +1,4 @@
-
-/* HELPER CLASS 
+/* HELPER CLASS
  * -------------------------- */
 
 /* FA based classes */
@@ -51,7 +50,7 @@
 }
 .pe-border {
   padding: .2em .25em .15em;
-  border: solid 0.08em #eeeeee;
+  border: solid 0.08em #111111;
   border-radius: .1em;
 }
 .pull-right {
@@ -174,7 +173,7 @@
   font-size: 2em;
 }
 .pe-inverse {
-  color: #ffffff;
+  color: #000000;
 }
 
 /* Custom classes / mods - PIXEDEN */
@@ -183,7 +182,7 @@
 }
 
 .pe-border {
-  border: solid 0.08em #eaeaea;
+  border: solid 0.08em #151515;
 }
 
 [class^="pe-7s-"], [class*=" pe-7s-"] {

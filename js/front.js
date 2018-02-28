@@ -1,3 +1,4 @@
+
 isotope();
 
 $(function () {
@@ -42,9 +43,12 @@ function isotope() {
         resizeContainer: true,
     });
 
+
+
     $grid.imagesLoaded().progress(function () {
         $grid.isotope('layout');
     });
+
 }
 
 /* =========================================
