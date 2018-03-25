@@ -36,11 +36,11 @@ function carousels() {
 
  function isotope() {
 
-<<<<<<< HEAD
      var $grid = $('.grid').isotope({
          itemSelector: ".isotope-item",
          layoutMode: 'packery',
          resizeContainer: true,
+         sortBy: 'random',
      });
 
      $grid.imagesLoaded().progress(function () {
@@ -50,35 +50,6 @@ function carousels() {
  }
 
 
-=======
- jQuery(document).ready(function($) {
-     var $win = $(window),
-         $con = $('div.box-isotope'),
-         $imgs = $("img.img-responsive");
-
-     $con.isotope();
- 
-
-
-    var $grid = $('.grid').isotope({
-        itemSelector: ".isotope-item",
-        layoutMode: 'packery',
-        resizeContainer: true,
-        sortBy: 'random',
-    });
-
-
-    $imgs.lazyload({
-        failure_limit: Math.max($imgs.length - 1, 0)
-    });
-
-    $grid.imagesLoaded().progress(function () {
-        $grid.isotope('layout');
-    });
-
-});
-}
->>>>>>> parent of 4594ca3... Revert "a"
 
 /* =========================================
  *  Off-canvas menu
