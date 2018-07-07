@@ -49,6 +49,14 @@ function carousels() {
 
  }
 
+<<<<<<< HEAD
+=======
+    var $grid = $('.grid').isotope({
+        itemSelector: ".isotope-item",
+        gutter: 5,
+        columnWidth
+    });
+>>>>>>> parent of a2c2e00... a
 
 
 /* =========================================
