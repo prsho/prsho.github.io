@@ -36,6 +36,7 @@ function carousels() {
 
  function isotope() {
 
+<<<<<<< HEAD
      var $grid = $('.grid').isotope({
          itemSelector: ".isotope-item",
          layoutMode: 'packery',
@@ -58,6 +59,16 @@ function carousels() {
     });
 >>>>>>> parent of a2c2e00... a
 
+=======
+    var $grid = $('.grid').masonry({
+        itemSelector: ".masonry-item"
+    });
+
+    $grid.imagesLoaded().progress(function () {
+        $grid.masonry('layout');
+    });
+}
+>>>>>>> parent of 9443c3b... yay
 
 /* =========================================
  *  Off-canvas menu
