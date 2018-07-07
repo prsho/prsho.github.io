@@ -1,3 +1,4 @@
+
 isotope();
 
 $(function () {
@@ -34,22 +35,21 @@ function carousels() {
  *  isotope
  *  =======================================*/
 
- function isotope() {
+function isotope() {
 
-     var $grid = $('.grid').isotope({
-         itemSelector: ".isotope-item",
-         layoutMode: 'packery',
-         resizeContainer: true,
-         sortBy: 'random',
-     });
-
-     $grid.imagesLoaded().progress(function () {
-         $grid.isotope('layout');
-     });
-
- }
+    var $grid = $('.grid').isotope({
+        itemSelector: ".isotope-item",
+        layoutMode: 'packery',
+        resizeContainer: true,
+    });
 
 
+
+    $grid.imagesLoaded().progress(function () {
+        $grid.isotope('layout');
+    });
+
+}
 
 /* =========================================
  *  Off-canvas menu

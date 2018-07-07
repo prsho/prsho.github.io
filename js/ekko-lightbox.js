@@ -321,7 +321,7 @@ License: https://github.com/ashleydw/lightbox/blob/master/LICENSE
           var image;
           image = $('<img />');
           image.attr('src', img.src);
-          image.addClass('lazyload');
+          image.addClass('img-responsive');
           _this.lightbox_body.html(image);
           if (_this.modal_arrows) {
             _this.modal_arrows.css('display', 'block');
