@@ -1,4 +1,3 @@
-
 isotope();
 
 $(function () {
@@ -50,41 +49,7 @@ function carousels() {
 
  }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-    var $grid = $('.grid').isotope({
-        itemSelector: ".isotope-item",
-<<<<<<< HEAD
-        gutter: 5,
-        columnWidth
-=======
-        layoutMode: 'packery',
-        resizeContainer: true,
->>>>>>> parent of 4ac933a... random sort
-    });
->>>>>>> parent of a2c2e00... a
 
-<<<<<<< HEAD
-=======
-    var $grid = $('.grid').masonry({
-        itemSelector: ".masonry-item"
-=======
-
-
-    $grid.imagesLoaded().progress(function () {
-        $grid.isotope('layout');
->>>>>>> parent of 4ac933a... random sort
-    });
-
-    $grid.imagesLoaded().progress(function () {
-        $grid.masonry('layout');
-    });
-}
->>>>>>> parent of 9443c3b... yay
-=======
-
->>>>>>> parent of 550d64f... a
 
 /* =========================================
  *  Off-canvas menu
